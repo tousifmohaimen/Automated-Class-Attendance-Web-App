@@ -11,9 +11,9 @@ from streamlit_webrtc import webrtc_streamer
 from utils import RealTimePred, RegistrationForm
 
 # Connect to Redis
-redis_hostname = 'redis-14895.c74.us-east-1-4.ec2.cloud.redislabs.com'
-redis_portnumber = 14895
-redis_password = 'GNAkOLmU26w6MuyLBfqfAWJcHAXdba4r'
+redis_hostname = ''
+redis_portnumber = 
+redis_password = ''
 redis_client = redis.StrictRedis(
     host=redis_hostname,
     port=redis_portnumber,
